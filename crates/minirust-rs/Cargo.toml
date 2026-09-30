@@ -4,5 +4,5 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-libspecr = "=0.1.40"
+libspecr = { git = "https://github.com/Nadrieril/specr", branch = "bump-toolchain" }
 serde = {version = "1.0", features = ["derive"]}
